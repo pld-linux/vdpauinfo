@@ -11,7 +11,7 @@ BuildRequires:	libstdc++-devel
 BuildRequires:	libvdpau-devel >= 0.9
 BuildRequires:	pkgconfig
 BuildRequires:	xorg-lib-libX11-devel
-Requires:	libvdpau >= 0.2
+Requires:	libvdpau >= 0.9
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
