@@ -1,17 +1,17 @@
 Summary:	VDPAU information utility
 Summary(pl.UTF-8):	Narzędzie podające informacje o VDPAU
 Name:		vdpauinfo
-Version:	0.9
+Version:	1.0
 Release:	1
 License:	MIT
 Group:		Applications/System
 Source0:	http://people.freedesktop.org/~aplattner/vdpau/%{name}-%{version}.tar.gz
-# Source0-md5:	f48e7ce838146021a138592ca9bdffc8
+# Source0-md5:	4eba3e7bf5062b9c245276860493804f
 BuildRequires:	libstdc++-devel
-BuildRequires:	libvdpau-devel >= 0.9
+BuildRequires:	libvdpau-devel >= 1.0
 BuildRequires:	pkgconfig
 BuildRequires:	xorg-lib-libX11-devel
-Requires:	libvdpau >= 0.9
+Requires:	libvdpau >= 1.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
