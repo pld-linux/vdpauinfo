@@ -5,8 +5,10 @@ Version:	1.0
 Release:	1
 License:	MIT
 Group:		Applications/System
-Source0:	http://people.freedesktop.org/~aplattner/vdpau/%{name}-%{version}.tar.gz
+#Source0Download: https://gitlab.freedesktop.org/vdpau/vdpauinfo/tags
+Source0:	https://gitlab.freedesktop.org/vdpau/vdpauinfo/uploads/a62b87300dff4ad0ac2d4dedb832ec13/%{name}-%{version}.tar.gz
 # Source0-md5:	4eba3e7bf5062b9c245276860493804f
+URL:		https://freedesktop.org/wiki/Software/VDPAU/
 BuildRequires:	libstdc++-devel
 BuildRequires:	libvdpau-devel >= 1.0
 BuildRequires:	pkgconfig
